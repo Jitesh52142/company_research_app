@@ -175,7 +175,12 @@ export default function ResultsPage() {
           {data.url && (
             <div className="mt-4">
               <h4 className="font-semibold text-gray-700 mb-2">Website</h4>
-              <a href={data.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              <a 
+                href={data.url} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-600 hover:text-blue-800 hover:underline break-all"
+              >
                 {data.url}
               </a>
             </div>
